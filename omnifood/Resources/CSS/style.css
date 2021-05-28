@@ -2,10 +2,8 @@
 Orange color: #e67e22;
 */
 
-/*-------------------------*/
-/* BASIC SETUP */
-/*-------------------------*/
 
+/* BASIC SETUP */
 * {
     margin: 0;
     padding: 0;
@@ -21,10 +19,8 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-/*-------------------------*/
-/* REUSABLE COMPONENTS */
-/*-------------------------*/
 
+/* REUSABLE COMPONENTS */
 /* content is layed out in rows */
 .row {
     max-width: 1140px;
@@ -36,7 +32,6 @@ section {
 }
 
 /*----- HEADINGS -----*/
-
 h1, h2 {
     font-weight: 300;
     text-transform: uppercase;
@@ -69,7 +64,6 @@ h2::after {
 }
 
 /*----- PARAGRAPHS -----*/
-
 .long-copy {
     line-height: 145%;
     width: 70%;
@@ -77,7 +71,6 @@ h2::after {
 }
 
 /*----- BUTTONS -----*/
-
 .btn:link, .btn:visited {
     display: inline-block;
     padding: 10px 30px;
@@ -111,10 +104,8 @@ h2::after {
     color: #fff;
 }
 
-/*-------------------------*/
-/* HEADER */
-/*-------------------------*/
 
+/* HEADER */
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/hero.jpg);
     background-size: cover;
